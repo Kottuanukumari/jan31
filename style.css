@@ -1,0 +1,111 @@
+.{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+   width: 1500px;
+    min-height: 100vh;                                                                                                                                                                                          background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-flex;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 5px;
+    background: lightpink;
+    color: aliceblue;
+}
+.img1{
+    width: 400px;
+    height: 400px;
+}
+.img1{
+    width: 400px;
+    height: 400px;
+}
+.img2{
+    width:300px;
+    height: 300px;
+}
+.img3{
+    width: 500px;
+    height: 500px;
+}
+.img4{
+    width: 300px;
+    height: 300px;
+}
+.img4{
+    width: 300px;
+    height: 300px;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
+.booking-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
+.booking-item{
+    text-align: center;
+    
+}
+.booking-item img{
+    width: 100%;
+    height: 400px;
+}
+.img5{
+    width: 1500px;
+    height: 900px;
+}
+.img5{
+    width: 300px;
+    height: 300px;
+}
+.img5{
+    width: 300px;
+    height: 300px;
+}
+.img6{
+    width: 300px;
+    height: 300px;
+}
+.img6{
+    width: 300px;
+    height: 500px;
+}
+.img6{
+    width: 300px;
+    height: 300px;
+}
+
