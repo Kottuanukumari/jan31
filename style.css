@@ -1,4 +1,4 @@
-.{
+ .{
     margin: 0px;
     padding: 0px;
     font-family: 'poppins',sans-serif;
@@ -7,7 +7,8 @@
 }
 .container{
    width: 1500px;
-    min-height: 100vh;                                                                                                                                                                                          background-size: cover;
+    min-height: 100vh;
+    background-size: cover;
     background-position: center;
     padding: 10px 8%;
     
@@ -43,69 +44,145 @@ nav ul li a{
     background: lightpink;
     color: aliceblue;
 }
-.img1{
-    width: 400px;
-    height: 400px;
+.ecommerc{
+    background-image: url('https://img.freepik.com/free-photo/shopping-cart-with-wooden-elements_23-2148879396.jpg?w=1380&t=st=1706786589~exp=1706787189~hmac=fab580d3b0d87495605c4095052f62ea121c9d6301a33ed5b8574afc0c6fb6d3');
+    background-repeat: no-repeat;
+    background-size: cover;
+}<div class="container">
+      <div class="card">
+        <div class="card_title">
+          <h1>Create Account</h1>
+          <span>Already have an account? <a href="login">Sign In</a></span>
+        </div>
+        <div class="form">
+        <form action="/register" method="post">
+          <input type="text" name="username" id="username" placeholder="UserName" />
+          <input type="email" name="email" placeholder="Email" id="email" />
+          <input type="password" name="password" placeholder="Password" id="password" />
+          <button>Sign Up</button>
+          </form>
+        </div>
+        <div class="card_terms">
+            <input type="checkbox" name="" id="terms"> <span>I have read and agree to the <a href="">Terms of Service</a></span>
+        </div>
+      </div>
+    </div>
+body {
+  background:url('http://cdn.wallpapersafari.com/13/6/Mpsg2b.jpg');
+  margin:0px;
+  font-family: 'Ubuntu', sans-serif;
+  background-size: 100% 110%;
 }
-.img1{
-    width: 400px;
-    height: 400px;
+h1, h2, h3, h4, h5, h6, a {
+  margin:0; padding:0;
 }
-.img2{
-    width:300px;
-    height: 300px;
+.login {
+  margin:0 auto;
+  max-width:500px;
 }
-.img3{
-    width: 500px;
-    height: 500px;
+.login-header {
+  color:#fff;
+  text-align:center;
+  font-size:300%;
 }
-.img4{
-    width: 300px;
-    height: 300px;
+/* .login-header h1 {
+   text-shadow: 0px 5px 15px #000; */
 }
-.img4{
-    width: 300px;
-    height: 300px;
+.login-form {
+  border:.5px solid #fff;
+  background:#4facff;
+  border-radius:10px;
+  box-shadow:0px 0px 10px #000;
 }
-.img{
-    width: 300px;
-    height: 300px;
+.login-form h3 {
+  text-align:left;
+  margin-left:40px;
+  color:#fff;
 }
-.booking-grid{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 40px;
+.login-form {
+  box-sizing:border-box;
+  padding-top:15px;
+  padding-bottom:10%;
+  margin:5% auto;
+  text-align:center;
 }
-.booking-item{
-    text-align: center;
+.login input[type="text"],
+.login input[type="password"] {
+  max-width:400px;
+  width: 80%;
+  line-height:3em;
+  font-family: 'Ubuntu', sans-serif;
+  margin:1em 2em;
+  border-radius:5px;
+  border:2px solid #f2f2f2;
+  outline:none;
+  padding-left:10px;
+}
+.login-form input[type="button"] {
+  height:30px;
+  width:100px;
+  background:#fff;
+  border:1px solid #f2f2f2;
+  border-radius:20px;
+  color: slategrey;
+  text-transform:uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  cursor:pointer;
+}
+.sign-up{
+  color:#f2f2f2;
+  margin-left:-70%;
+  cursor:pointer;
+  text-decoration:underline;
+}
+.no-access {
+  color:#E86850;
+  margin:20px 0px 20px -57%;
+  text-decoration:underline;
+  cursor:pointer;
+}
+.try-again {
+  color:#f2f2f2;
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+/*Media Querie*/
+@media only screen and (min-width : 150px) and (max-width : 530px){
+  .login-form h3 {
+    text-align:center;
+    margin:0;
+  }
+  .sign-up, .no-access {
+    margin:10px 0;
+  }
+  .login-button {
+    margin-bottom:10px;
+  }
+}
+.shopping{
+background-image: url('https://www.shutterstock.com/image-photo/overturned-shopping-cart-on-ground-260nw-2131053332.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
-.booking-item img{
-    width: 100%;
+.home{
+    background-image: url('https://www.shutterstock.com/image-photo/overturned-shopping-cart-on-ground-260nw-2131053332.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cart{
+    background-image: url('https://cdn5.vectorstock.com/i/1000x1000/20/74/fresh-vegetables-in-the-ground-vector-7682074.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product{
+    background-image: url('https://www.shutterstock.com/image-photo/green-grass-sky-260nw-281045075.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img{
+    width: 400px;
     height: 400px;
-}
-.img5{
-    width: 1500px;
-    height: 900px;
-}
-.img5{
-    width: 300px;
-    height: 300px;
-}
-.img5{
-    width: 300px;
-    height: 300px;
-}
-.img6{
-    width: 300px;
-    height: 300px;
-}
-.img6{
-    width: 300px;
-    height: 500px;
-}
-.img6{
-    width: 300px;
-    height: 300px;
 }
 
